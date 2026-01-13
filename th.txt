@@ -1,0 +1,3 @@
+logical operators
+and--->both conditons are true then it will true---->&&
+or---->if any one of condition will be true then statemnet will be print ---->||
