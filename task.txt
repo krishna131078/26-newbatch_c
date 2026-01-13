@@ -1,0 +1,5 @@
+13/1/2026---->
+a,e,i,o,u
+vowel
+else
+consonant
