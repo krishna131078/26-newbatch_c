@@ -3,3 +3,8 @@ a,e,i,o,u
 vowel
 else
 consonant
+3 sub--->math,phy,chem
+total   --->
+avg--->
+avg a
+b
