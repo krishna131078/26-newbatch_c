@@ -121,16 +121,67 @@
 //     }
 // }
 //1234--->
+// int main()
+// {
+//     int n,count=0;
+//     printf("enter the num");
+//     scanf("%d",&n);
+//     for(;n>0;)
+//     {
+//         n=n/10;//123/10=12//12/10=1/10=0
+//         count++;
+//     }
+//     printf("%d",count);
+// }
+
+//1234----->4321
+// int main()
+// {
+//     int n,rem,sum=0;
+//     printf("enter the num");
+//     scanf("%d",&n);
+//     for(;n!=0;)
+//     {
+//         rem=n%10;//1234%10=4//123%10=3//12%10=2//1%10=1
+//         sum=(sum*10)+rem;//0+4=4//40+3=430+2=432//4321/
+//         n=n/10;//1234/10=123//123/10=12//12/10=1/10=0....
+//     }
+//     printf("reverse digit:%d",sum);
+// }
+// int main()
+// {
+//     //123--->6
+//     int n,sum=0,rem;
+//     printf("enter the num");
+//     scanf("%d",&n);
+//     for(;n>0;)
+//     {
+//         rem=n%10;//123%10=3//12%10=2//1%10=1
+//         sum=sum+rem;//0+3=3+2=5+1=6
+//         n=n/10;//123/10=12//12/10=1/10--->0.
+//     }
+//     printf("%d",sum);
+// }
+
+//121
 int main()
 {
-    int n,count=0;
+    int n,sum=0,rem,temp;
     printf("enter the num");
     scanf("%d",&n);
+    temp=n;//121
     for(;n>0;)
     {
-        n=n/10;//123/10=12//12/10=1/10=0
-        count++;
+        rem=n%10;//121%10=1//12%10=2//1%10=1
+        sum=(sum*10)+rem;//0+1=1//10+2=12//120+1=121
+        n=n/10;//121/10=12//12/10=1/10
     }
-    printf("%d",count);
+    if(temp==sum)
+    {
+        printf("it is palindrome");
+    }
+    else{
+        printf("not palindrome");
+    }
 }
 
