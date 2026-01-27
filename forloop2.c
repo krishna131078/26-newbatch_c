@@ -60,13 +60,77 @@
 // }
 // multiplication---->
 // 5*1=5
+// int main()
+// {
+//     int i,n;
+//     printf("enter the num");
+//     scanf("%d",&n);
+//     for(i=1;i<=10;i++)
+//     {
+//         printf("\n%d *%d=%d",n,i,n*i);
+//     }
+// }
+// 5---->5*4*3*2*1=120//
+// int main()
+// {
+//     int n,i,fact=1;
+//     printf("enter the num");
+//     scanf("%d",&n);
+//     for(i=1;i<=n;i++)
+//     {
+//         fact=fact*i;//1*1=1//1*2=2//2*3=6//6*4=24//24*5=120
+//     }
+//     printf("%d",fact);
+// }
+//2--->3--->8
+// int main()
+// {
+//     int base,power,i,m=1;
+//     printf("enter the base and power");
+//     scanf("%d%d",&base,&power);
+//     for(i=1;i<=power;i++)
+//     {
+//         m=m*base;//1*2=2//2*2=4//4*2=8//8*2=16
+//     }
+//     printf("%d",m);
+// }
+
+
+
+
+// 3--->1,3
+//5--->1,5
+// int main()
+// {
+//     int n,count=0,i;
+//     printf("enter the num");
+//     scanf("%d",&n);
+//     for(i=1;i<=n;i++)
+//     {
+//         if(n%i==0)
+//         {
+//             count++;//1//2//
+//         }
+//     }
+//     if(count==2)
+//     {
+//         printf("no is prime");
+//     }
+//     else{
+//         printf("no is not prime");
+//     }
+// }
+//1234--->
 int main()
 {
-    int i,n;
+    int n,count=0;
     printf("enter the num");
     scanf("%d",&n);
-    for(i=1;i<=10;i++)
+    for(;n>0;)
     {
-        printf("\n%d *%d=%d",n,i,n*i);
+        n=n/10;//123/10=12//12/10=1/10=0
+        count++;
     }
+    printf("%d",count);
 }
+

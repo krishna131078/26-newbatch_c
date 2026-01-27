@@ -8,3 +8,12 @@ total   --->
 avg--->
 avg a
 b
+int a = 3;
+int b = ++a + a++ + ++a;
+printf("%d %d", a, b);
+
+a=3
+4
+4
+6
+
