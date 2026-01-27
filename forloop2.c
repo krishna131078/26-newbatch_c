@@ -164,24 +164,45 @@
 // }
 
 //121
+// int main()
+// {
+//     int n,sum=0,rem,temp;
+//     printf("enter the num");
+//     scanf("%d",&n);
+//     temp=n;//121
+//     for(;n>0;)
+//     {
+//         rem=n%10;//121%10=1//12%10=2//1%10=1
+//         sum=(sum*10)+rem;//0+1=1//10+2=12//120+1=121
+//         n=n/10;//121/10=12//12/10=1/10
+//     }
+//     if(temp==sum)
+//     {
+//         printf("it is palindrome");
+//     }
+//     else{
+//         printf("not palindrome");
+//     }
+// }
+
+// 153---->1+125+27=153//armstrng num
 int main()
 {
-    int n,sum=0,rem,temp;
+    int n,rem,sum=0,temp;
     printf("enter the num");
     scanf("%d",&n);
-    temp=n;//121
+    temp=n;
     for(;n>0;)
     {
-        rem=n%10;//121%10=1//12%10=2//1%10=1
-        sum=(sum*10)+rem;//0+1=1//10+2=12//120+1=121
-        n=n/10;//121/10=12//12/10=1/10
+        rem=n%10;//153%10=3//15%10=5//1%10=1
+        sum=sum+(rem*rem*rem);//0+27=27//27+125=152+1=153
+        n=n/10;//153/10=15//15/10=1//0.........
     }
     if(temp==sum)
     {
-        printf("it is palindrome");
+        printf("no is armstrng");
     }
     else{
-        printf("not palindrome");
+        printf("no is not armstrng");
     }
 }
-
