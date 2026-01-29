@@ -186,23 +186,24 @@
 // }
 
 // 153---->1+125+27=153//armstrng num
-int main()
-{
-    int n,rem,sum=0,temp;
-    printf("enter the num");
-    scanf("%d",&n);
-    temp=n;
-    for(;n>0;)
-    {
-        rem=n%10;//153%10=3//15%10=5//1%10=1
-        sum=sum+(rem*rem*rem);//0+27=27//27+125=152+1=153
-        n=n/10;//153/10=15//15/10=1//0.........
-    }
-    if(temp==sum)
-    {
-        printf("no is armstrng");
-    }
-    else{
-        printf("no is not armstrng");
-    }
-}
+// int main()
+// {
+//     int n,rem,sum=0,temp;
+//     printf("enter the num");
+//     scanf("%d",&n);
+//     temp=n;
+//     for(;n>0;)
+//     {
+//         rem=n%10;//153%10=3//15%10=5//1%10=1
+//         sum=sum+(rem*rem*rem);//0+27=27//27+125=152+1=153
+//         n=n/10;//153/10=15//15/10=1//0.........
+//     }
+//     if(temp==sum)
+//     {
+//         printf("no is armstrng");
+//     }
+//     else{
+//         printf("no is not armstrng");
+//     }
+// }
+
