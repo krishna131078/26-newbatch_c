@@ -21,6 +21,31 @@ choices
 3.do while loops----->minimum runs once
 
 
+array
+1.1 d array
+2. 2d array
+int a[5];
+a[5]={1,2,3,4,5}
+printf("%d",a[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
