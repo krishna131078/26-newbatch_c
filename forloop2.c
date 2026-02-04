@@ -207,3 +207,17 @@
 //     }
 // }
 
+int main()
+{
+    int n,i;
+    printf("enter the num");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        if(i>=3)
+        {
+            continue;;
+        }
+        printf("%d",i);
+    }
+}
