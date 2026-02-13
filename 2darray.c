@@ -28,6 +28,7 @@ int main()
     {
         for(j=0;j<n;j++)//column
         {
+            printf("enter the elemnts a[%d][%d]",i,j);
             scanf("%d",&a[i][j]);
         }
     }
